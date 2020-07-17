@@ -1,0 +1,31 @@
+{
+  "name": "kodemia-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melscastillo/kodemia-api.git"
+  },
+  "keywords": [
+    "kodemia",
+    "api",
+    "git"
+  ],
+  "author": "@melscastillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melscastillo/kodemia-api/issues"
+  },
+  "homepage": "https://github.com/melscastillo/kodemia-api#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "nodemon": "^2.0.4"
+  }
+}
